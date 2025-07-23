@@ -4,9 +4,16 @@ URL shortener API using Django REST Framework. You send a long URL and get a sho
 ## Setup
 ```bash
 pip install -r requirements.txt
+cp .env.example .env
 python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver
+```
+
+## Testing
+**Run unit tests**
+```bash
+pytest
 ```
 
 ## Usage

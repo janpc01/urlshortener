@@ -1,2 +1,4 @@
 djangorestframework
 python-dotenv
+pytest
+pytest-django
